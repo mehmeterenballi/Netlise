@@ -1,0 +1,415 @@
+body{
+    margin: 0;
+    background-color: #fff;
+    font-family: "Source Sans Pro" , "Helvetica Niue" , "Helvetica" , "Arial";}
+a{text-decoration: none;}
+input{outline: none;}
+.login_page_username{
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-right: 6px solid #0D98C7;
+    height: 40px;
+    width: 220px;
+    margin-bottom: 12px;
+    padding-left: 7px;
+    margin-left: 110px;}
+.login_page_sinput{
+    border: 1px solid #ccc;
+    border-right: 6px solid #0D98C7;
+    height: 35px;
+    width: 450px;
+    margin-bottom: 30px;
+    padding-left: 7px}
+.login_page_password{ border: 1px solid #ccc;
+    border-right: 6px solid #0D98C7;
+    height: 40px;
+    width: 220px;
+    margin-bottom: 30px;
+    padding-left: 7px;
+    margin-left: 110px;}
+.daire{
+background-color: #FFFFFF;
+    height: 440px;
+    -moz-border-radius: 220px;
+    -webkit-border-radius: 220px;
+    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.21);
+    width: 440px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 3;}
+.login_page_circle_logo{
+    background: url(/img/nl_logo.png);
+    display: inline-block;
+    width: 220px;
+    height: 70px;
+    background-size: 220px;
+    margin-top: 100px;}
+.d_center{width: 400px;margin:0 auto;}
+.gr_logo{text-align: center;}
+.kucuk_daire_link{height: 150px;
+    position: relative;
+    width: 150px;
+    float: right;
+    border-radius: 999px;
+    margin-top: -90px;
+    left: 190px;}
+.kucuk_daire{
+    height: 150px;
+    z-index: -65;
+    position: relative;
+    width: 150px;
+    float: right;
+    border-radius: 999px;
+    background: #0D98C7;
+    margin-top: -90px;
+    left: 40px;
+    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.21);
+    text-align: center;}
+.kucuk_daire_a{display: inline-block;
+    color: #fff;
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 18px;}
+.disabled{
+    background: #9CD2E4;}
+.netlise_logo{
+    background: url("/img/logo.png");
+    background-size: 110px ;
+    width: 110px  ;
+    height: 35px;
+    display: inline-block;
+    margin: 7.5px 0}
+.nl_header{
+    background-color: #0D98C7;
+    width: 100%;
+    height: 50px}
+.nl_pages_body{
+    background-color: #f9f9f9}
+.guide_circle{
+    background-color: aqua}
+.guide_circle{
+    background-color: rgba(0, 0, 0, 0.55);
+    height: 440px;
+    -moz-border-radius: 220px;
+    -webkit-border-radius: 220px;
+    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.21);
+    width: 430px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 3;
+    text-align: center}
+.register_circle{
+    background-color: #fff;
+    height: 440px;
+    -moz-border-radius: 220px;
+    -webkit-border-radius: 220px;
+    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.21);
+    width: 440px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 3;
+    text-align: center}
+.congratulations_circle{
+    background-color: #fff;
+    height: 440px;
+    -moz-border-radius: 220px;
+    -webkit-border-radius: 220px;
+    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.21);
+    width: 440px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    color: black;}
+.congratulations_circle_div{
+    width: 440px;
+    height: 440px;
+    margin: 0 auto; 
+    color: black}
+.yazi_cong{
+    padding: 120px 70px;
+    color: black;
+    font-size: 30px
+}
+.guide_circle_div{
+    width: 440px;
+    margin: 0 auto;}
+.register_circle_div{width: 440px;
+    margin: 0 auto;
+    margin-top: 400px;
+    margin-left: 700px;}
+.nl_header_right{
+    float: right}
+.nl_header_center{
+    width: 1000px;
+    margin: 0 auto}
+.nl_header_right_logout{
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.71);
+    margin: 12.5px 0;
+    display: inline-block}
+.nl_header_right_logout:hover{
+    color: #fff;
+    -webkit-transition: all 0.3s; 
+    transition: all 0.3s;}
+.guide_min_circle{
+    background-color: rgba(13, 152, 199, 0.9);
+    -moz-border-radius: 220px;
+    -webkit-border-radius: 220px;
+    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.21);
+    margin-top: 50px;
+    float: right;
+    margin-right: -180px;
+    margin-top: -20px;
+    text-align: center;
+    padding: 55px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800}
+.register_min_circle{
+     background-color: #0D98C7;
+    -moz-border-radius: 220px;
+    -webkit-border-radius: 220px;
+    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.21);
+    margin-top: 50px;
+    float: right;
+    margin-right: -180px;
+    margin-top: -20px;
+    text-align: center;
+    padding: 55px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 800}
+.congratulations_min_circle{
+    background-color: rgba(13, 152, 199, 0.9);
+    border-radius: 999px;
+    margin-top: 50px;
+    float: right;
+    margin-right: -180px;
+    margin-top: -20px;
+    text-align: center;
+    padding: 55px 60px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800
+    
+}
+.guide_min_circle_div{
+    }
+.guide_bloons{
+    width: 120px;
+    margin-left: 830px;
+    margin-top: -60px;
+    float: right}
+.yazi{
+    padding: 80px;
+    color: #f9f9f9}
+.nl_start_page_body{
+    background: url("../img/kt351.jpg");
+    background-size: 100%;
+    margin: 0 auto;}
+.nl_register_page_body{
+    background-color: #f9f9f9;
+    background: url("http://www.egonomik.com/wp-content/uploads/2012/04/istanbul-wallpaper-3.jpg");
+    background-size: 100%}
+.nl_congratulations_page_body{
+    background-color: #f9f9f9;
+    background: url("http://www.nettekeyif.net/data/media/10/yukseuk_cozunurluk_hd_sehir_resimleri_nettekeyif.net__27_.jpg");
+    background-size: 100%
+    
+}
+.register_page_username{
+    margin-top: 150px;
+    border: 1px solid #ccc;
+    border-right: 6px solid #0D98C7;
+    height: 40px;
+    width: 220px;
+    padding-left: 7px;
+    margin-left: 0 auto;}
+.register_page_password{ border: 1px solid #ccc;
+    border-right: 6px solid #0D98C7;
+    height: 40px;
+    width: 220px;
+    margin-bottom: 30px;
+    padding-left: 7px;
+    margin: 0 auto;
+    margin-top: 10px;}
+.kucuk_daire_register{ height: 150px;
+    z-index: 1;
+    position: relative;
+    width: 150px;
+    border-radius: 999px;
+    background: #0D98C7;
+    left: -25px;
+    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.21);
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 800;cursor: pointer}
+
+.kucuk_daire_ra{
+    display: inline-block;
+    color: #fff;
+    margin-top: 40px;
+    font-weight: 1000;
+    font-size: 50px;}
+
+.nl_feedback_page_body{
+    background-color: #f9f9f9;
+    background: url("http://www.rollingstoned.nl/wp-content/uploads/2014/05/Istanbul.jpg");
+    background-size: 100%
+    
+}
+.feedback_div{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px
+}
+.feedback_text{
+    background-color: #fff;
+    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.21);
+    position: relative;
+    resize: none;
+    display: inline-block;
+    width: 490px;
+    height: 240px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: -40px;
+    border-right: 10px solid #0D98C7;
+    
+    
+}
+.feedback_text_div{
+    margin-top: -30px
+    
+}
+.feedback_explanation_circle_a{font-family: "Source Sans Pro" , "Helvetica Niue" , "Helvetica" , "Arial";display: inline-block;
+    color: #fff;
+    margin-top: 30px;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.feedback_explanation_circle{
+    height: 220px;
+    width: 220px;
+    border-radius: 999px;}
+.feedback_explanation_circle_div{
+    background-color: #0D98C7;
+    height: 220px;
+    width: 220px;
+    border-radius: 999px;
+    margin-left: -90px;
+    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.21)}
+
+.feedback_button_circle{
+    height: 175px;
+    width: 175px;
+    border-radius: 999px;
+    color: #fff;}
+.feedback_button_circle_div{
+    background-color:#0D98C7;
+    cursor: pointer;
+    border-radius: 999px;
+    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.21);
+    float: right;
+    margin-right: -130px;
+    margin-top: -4px;
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 40px 60px}
+.nl_error_page_body{
+    background-color: #f6f6f6
+    
+}
+.error_circle_div{background-color: #fff;
+    height: 380px;
+    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.21);
+    width: 380px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    margin-left: 450px;
+    border-radius: 999px;
+
+}
+.error_go_fbp_a{font-family: "Source Sans Pro" , "Helvetica Niue" , "Helvetica" , "Arial";display: inline-block;
+    color: #fff;
+    padding: 27px;
+    font-weight: 600;
+    font-size: 18px;}
+
+.error_bloons{
+    width: 110px;
+    margin-left: 665px;
+    margin-bottom: 70px;
+    margin-top: -15px;
+}
+
+.error_go_fbp{background-color: #0D98C7;
+    height: 100px;
+    box-shadow: 1px 1px 15px rgba(102, 102, 102, 0.21);
+    width: 100px;
+    margin-top: -90px;
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    margin-left: 595px;
+    border-radius: 999px;}
+
+.error_circle_div_a{font-family: "Source Sans Pro" , "Helvetica Niue" , "Helvetica" , "Arial";display: inline-block;
+    color: black;
+    margin-top: 115px;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 18px;}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;}
+
+.slide_div{
+    width: 1000px;
+    margin: 0 auto; 
+    max-height: 100px;
+    cursor: pointer;
+}
+
+.slider_page_gb{
+    float: right;
+    margin-top: 300px;
+    margin-right: 30px;
+    border: 5px;
+    border-color: black;
+    border-radius: 3px;
+    background-color: red;
+    width: 50px;
+    height: 25px;
+    padding: 3px;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
